@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>FitApp</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+	
+	<div class="wrap"  id="home">
+		<div class="back_frs">
+			<div class="back_frs_top">
+				<div dataspeed="80" class="fr-blur frjs">
+					<div class="fr-rotate-right fr-back fr-top-apple_1"></div>
+				</div>
+				<div dataspeed="10" class="fr-blur frjs">
+					<div class="fr-rotate-right fr-back fr-top-apple_2"></div>
+				</div>
+				<div dataspeed="10" class="fr-blur frjs">
+					<div class="fr-top-straw fr-back"></div>
+				</div>
+				<div dataspeed="-40" class="fr-blur frjs">
+					<div class="fr-rotate-right fr-back fr-top-banan"></div>
+				</div>
+				<div dataspeed="-80" class="fr-blur frjs">
+					<div class="fr-rotate-right fr-back fr-top-tomato"></div>
+				</div>
+			</div>
+			<div class="back_frs_mid">
+				<div dataspeed="-40" class="fr-blur frjs">
+					<div class="fr-rotate-right fr-back fr-mid-apple"></div>
+				</div>
+				<div dataspeed="40" class="fr-blur frjs">
+					<div class="fr-mid-banan fr-back"></div>
+				</div>
+				<div dataspeed="10" class="fr-blur frjs">
+					<div class="fr-rotate-left fr-back fr-mid-pepper"></div>
+				</div>
+				<div dataspeed="-40" class="fr-blur frjs">
+					<div class="fr-rotate-right fr-back fr-mid-straw"></div>
+				</div>
+			</div>
+			<div class="back_frs_bot">
+				<div dataspeed="-80" class="fr-blur frjs">
+					<div class="fr-rotate-left fr-back fr-bot-apple"></div>
+				</div>
+				<div dataspeed="10" class="fr-blur frjs">
+					<div class="fr-rotate-right fr-back fr-bot-pepper"></div>
+				</div>
+				<div dataspeed="-40" class="fr-blur frjs">
+					<div class="fr-rotate-left fr-back fr-bot-straw"></div>
+				</div>
+				<div dataspeed="40" class="fr-blur frjs">
+					<div class="fr-rotate-left fr-back fr-bot-banan"></div>
+				</div>
+				<div dataspeed="60" class="fr-blur frjs">
+					<div class="fr-rotate-left fr-back fr-bot-tomato"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="header">
+				<div class="container">
+					<div class="header_nav">
+						<a href="#home" class="header_logo"></a>
+						<div class="header_bar">
+							<ul class="nav">
+								<li class="nav_item">
+									<a href="#">About</a>
+								</li>
+								<li class="nav_item">
+									<a href="#">Features</a>
+								</li>
+								<li class="nav_item">
+									<a href="#">Reviews</a>
+								</li>
+								<li class="nav_item">
+									<a href="#">Blog</a>
+								</li>
+								<li class="nav_item">
+									<a href="#">Support</a>
+								</li>
+							</ul>
+							<div class="burger">
+								<div class="burger_ico"></div>
+							</div>
+							<a class="getapp_btn" href="#">
+								<span>Get App</span>
+							</a>
+						</div>
+					</div>
+					<div class="header_main">
+						<div class="half1">
+							<div class="appicon"></div>
+							<h1 class="h1">Helps you eat <strong>better.</strong></h1>
+							<p class="header_dscr">FitApp is a free calorie counting and diet app PSD template which includes high quality 9 screens. This template can be very helpful if you're planning to build food tracking application. </p>
+							<div class="header_downl_app">
+								<div class="app_down_block header_downl_app_appstore"></div>
+								<div class="app_down_block header_downl_app_gooplay"></div>
+							</div>
+						</div>
+						<div class="half2"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="prez_app">
+				<div class="container">
+					<div class="prez_half1">
+						<div class="prez_circle">
+							<div data-tab="objt" class="circ_obj circ_obj1 b-nav-tab tab_active" onclick="clickMe(this)">
+								<div class="obj obj1"></div>
+							</div>
+							<div data-tab="sous" class="circ_obj circ_obj2 b-nav-tab" onclick="clickMe(this)">
+								<div class="obj obj2"></div>
+							</div>
+							<div data-tab="days" class="circ_obj circ_obj3 b-nav-tab" onclick="clickMe(this)">
+								<div class="obj obj3"></div>
+							</div>
+							<div data-tab="favr" class="circ_obj circ_obj4 b-nav-tab" onclick="clickMe(this)">
+								<div class="obj obj4"></div>
+							</div>
+							<div data-tab="intr" class="circ_obj circ_obj5 b-nav-tab" onclick="clickMe(this)">
+								<div class="obj obj5"></div>
+							</div>
+							<div class="prez_mob"></div>
+						</div>
+					</div>
+					<div id="objt" class="prez_half2 b-tab active">
+						<h2 class="prez_h">Best calorie <span>counter app!</span></h2>
+						<p class="prez_descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<div id="sous" class="prez_half2 b-tab">
+						<h2 class="prez_h">Sounds so <span>undssound!</span></h2>
+						<p class="prez_descr">So sounds sounds sound ss ound ssoundssoundss ounds soundssounds soun dsso undss ound ssound ssounds.</p>
+					</div>
+					<div id="days" class="prez_half2 b-tab">
+						<h2 class="prez_h">Daysays ays <span>daysdday ss!</span></h2>
+						<p class="prez_descr">Ddays daysdaysd aysdaysd aysday sdaysda sda ysda ysdaysday sd aysday sdaysda sdays ysdays daysdaysday daysdays daysdaysdays.</p>
+					</div>
+					<div id="favr" class="prez_half2 b-tab">
+						<h2 class="prez_h">Favorite fav <span> favoritefff!</span></h2>
+						<p class="prez_descr">F favor itefa voritefa voritefav or itefa voritefa vorite favoritef avorite favo ritefa voritefavorite.</p>
+					</div>
+					<div id="intr" class="prez_half2 b-tab">
+						<h2 class="prez_h">Interface <span>interfacete rface!</span></h2>
+						<p class="prez_descr">Interface interfacei nterf aceinte rfaceint erface interface interfacei nterf aceinterfacei nterfacei nter faceinterf ac einterface.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="plan_d">
+				<div class="container">
+					<div class="plan_d_top">
+						<h2 class="plan_d_h">A simple way to <span>plan your diet!</span></h2>
+						<p class="plan_d_dscr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<div class="plan_d_bottom"></div>
+				</div>
+			</div>
+			
+			<div class="meal_time">
+				<div class="container">
+					<div class="meal_half1">
+						<h2 class="meal_h">Manage your <span>meal time</span></h2>
+						<p class="meal_dscr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<div class="meal_half2">
+						<div class="meal_menu_block">
+							<div class="meal_menu_img meal_menu_img1"></div>
+							<div class="meal_menu_dscr">
+								<span class="menu_item_h">Apple</span>
+								<span class="menu_item_span">Lorem ipsum dolor sit</span>
+								<span class="menu_item_gk">35g // 189 kcal</span>
+							</div>
+							<div class="meal_menu_time">
+								<span class="time_st1">01:00</span>
+								<span class="time_st2">PM</span>
+							</div>
+						</div>
+						<div class="meal_menu_block">
+							<div class="meal_menu_img meal_menu_img_main"></div>
+							<div class="meal_menu_dscr">
+								<span class="menu_item_h">Sandwich</span>
+								<span class="menu_item_span">Lorem ipsum dolor sit</span>
+								<span class="menu_item_gk">35g // 189kcal</span>
+							</div>
+							<div class="meal_menu_time">
+								<span class="time_st1">03:00</span>
+								<span class="time_st2">PM</span>
+							</div>
+						</div>
+						<div class="meal_menu_block">
+							<div class="meal_menu_img meal_menu_img3"></div>
+							<div class="meal_menu_dscr">
+								<span class="menu_item_h">Salad with chicken</span>
+								<span class="menu_item_span">Lorem ipsum dolor sit</span>
+								<span class="menu_item_gk">220g // 189 kcal</span>
+							</div>
+							<div class="meal_menu_time">
+								<span class="time_st1">05:30</span>
+								<span class="time_st2">PM</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<div class="container">
+					<h2 class="footer_h">Download, customize & <strong>enjoy!</strong></h2>
+					<p class="footer_dscr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<a class="footer_btn" href="#">
+						<span>Get App</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

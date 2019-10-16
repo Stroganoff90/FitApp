@@ -1,0 +1,145 @@
+.header {
+	background-color: #2ecc71;
+}
+
+.header .container {
+	padding-bottom: 0;
+}
+
+.header_nav {
+	height: 45px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 70px;
+}
+
+.header_logo {
+	display: block;
+	width: 135px;
+	height: 40px;
+	background-image: url('../img/fitapp.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.header_bar {
+	display: flex;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav_item {
+	min-width: 40px;
+	margin-right: 50px;
+}
+
+.nav_item a {
+	font-family: Roboto-Regular;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.nav_item a:hover {
+	color: #eae9e9;
+}
+
+.burger {
+	display: none;
+}
+
+.getapp_btn {
+	width: 140px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	border-radius: 45px;
+}
+
+.getapp_btn:hover {
+	background-color: #eae9e9;
+}
+
+.getapp_btn span {
+	font-family: Roboto-Bold;
+	font-size: 18px;
+	color: #2ecc71;
+}
+
+.header_main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.half1 {
+	padding-top: 120px;
+}
+
+.appicon {
+	width: 125px;
+	height: 125px;
+	background-image: url('../img/appicon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 65px;
+}
+
+.h1,
+.header_dscr {
+	font-family: Roboto-Light;
+	max-width: 630px;
+	color: #ffffff;
+}
+
+.h1 {
+	font-size: 64px;
+	margin-bottom: 35px;
+}
+
+.header_dscr {
+	font-size: 18px;
+	margin-bottom: 60px;
+	line-height: 32px;
+}
+
+.header_downl_app {
+	display: flex;
+	align-items: center;
+}
+
+.app_down_block {
+	width: 140px;
+	height: 50px;
+	margin-right: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.app_down_block:hover {
+	cursor: pointer;
+}
+
+.header_downl_app_appstore {
+	background-image: url('../img/appstore.png');
+}
+
+.header_downl_app_gooplay {
+	background-image: url('../img/googleplay.png');
+}
+
+.half2 {
+	width: 400px;
+	height: 760px;
+	background-image: url('../img/phone_header.png');
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	position: relative;
+    z-index: 999;
+}

@@ -1,0 +1,186 @@
+.meal_time {
+	padding: 110px 0;
+}
+
+.meal_time .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.meal_half1 {
+	padding: 120px 0;
+}
+
+.meal_h,
+.meal_dscr {
+	font-family: Roboto-Light;
+	color: #5a5a5a;
+	max-width: 530px;
+}
+
+.meal_h {
+	font-size: 48px;
+	line-height: 60px;
+	margin-bottom: 40px;
+}
+
+.meal_h span {
+	color: #2ecc71;
+}
+
+.meal_dscr {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.meal_half2 {
+	width: 520px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* =================== MENU =====================*/
+
+.meal_menu_block {
+	width: 420px;
+	height: 110px;
+	border-radius: 5px;
+	border: 1px solid #dcdddc;
+	box-shadow: 0 0 90px 20px rgba(220, 220, 220 ,0.5);
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	padding: 15px;
+	transition: all ease 0.5s;
+	cursor: pointer;
+}
+
+.meal_menu_block:last-child {
+	margin-bottom: 0;
+}
+
+.meal_menu_img {
+	height: 90px;
+	width: 110px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 18px;
+}
+
+.meal_menu_dscr {
+	width: 200px;
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.meal_menu_dscr span {
+	width: 100%;
+	display: block;
+}
+
+.menu_item_h {
+	font-size: 16px;
+	line-height: 22px;
+	color: #2ecc71;
+	font-family: Roboto-Bold;
+}
+
+.menu_item_span {
+	font-size: 12px;
+	line-height: 16px;
+	color: #b4b4b4;
+}
+
+.menu_item_gk {
+	color: #2ecc71;
+	font-size: 12px;
+	line-height: 22px;
+	font-family: Roboto-Bold;
+}
+
+.meal_menu_time {
+	width: 70px;
+}
+
+.meal_menu_time span {
+	line-height: 26px;
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-family: Roboto-Bold;
+}
+
+.time_st1 {
+	color: #2ecc71;
+	font-size: 24px;
+}
+
+.time_st2 {
+	color: #b4b4b4;
+	font-size: 16px;
+}
+
+.meal_menu_block:first-child .time_st1 {
+	color: #b4b4b4;
+}
+
+.meal_menu_img1 {
+	background-image: url('../img/apple.png');
+}
+
+.meal_menu_img_main {
+	background-image: url('../img/sandwich.png');
+}
+
+.meal_menu_img3 {
+	background-image: url('../img/salad.png');	
+}
+
+/* =================== MAIN =====================*/
+
+.meal_menu_block:hover {
+	height: 135px;
+	width: 520px;
+	transition: all ease 0.2s;
+}
+
+.meal_menu_block:hover .meal_menu_img {
+	width: 120px;
+	transition: all ease 0.2s;
+}
+
+.meal_menu_block:hover .meal_menu_dscr {
+	width: 250px;
+	height: 70px;
+	transition: all ease 0.2s;
+}
+
+.meal_menu_block:hover .menu_item_h {
+	font-size: 20px;
+	transition: all ease 0.2s;
+}
+
+.meal_menu_block:hover .menu_item_span {
+	font-size: 16px;
+	transition: all ease 0.2s;
+}
+
+.meal_menu_block:hover .menu_item_gk {
+	font-size: 16px;
+	transition: all ease 0.2s;
+}
+
+.meal_menu_block:hover .time_st1 {
+	font-size: 30px; 
+	transition: all ease 0.2s;
+}
+
+.meal_menu_block:hover .time_st2 {
+	font-size: 20px; 
+	transition: all ease 0.2s;
+}

@@ -1,0 +1,47 @@
+.plan_d {
+	background-color: #f9f9f9;
+	padding-top: 125px;	
+}
+
+.plan_d .container {
+	padding-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.plan_d_top {
+ 	margin-bottom: 35px;
+}
+
+.plan_d_h,
+.plan_d_dscr {
+	font-family: Roboto-Light;
+	color: #5a5a5a;
+	max-width: 830px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.plan_d_h {
+	font-size: 48px;
+	line-height: 60px;
+	margin-bottom: 40px;
+}
+
+.plan_d_h span {
+	color: #2ecc71;
+}
+
+.plan_d_dscr {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.plan_d_bottom {
+ 	height: 550px;
+ 	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	background-image: url('../img/mobiles.png');
+ }

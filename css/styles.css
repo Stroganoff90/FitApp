@@ -1,0 +1,353 @@
+@import url('reset.css');
+@import url('header.css');
+@import url('prez_app.css');
+@import url('plan_d.css');
+@import url('meal_time.css');
+@import url('footer.css');
+@import url('burger.css');
+@import url('back_frs.css');
+
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto-Light.ttf);
+} 
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+} 
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+} 
+
+
+.wrap {
+	width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.back_frs {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 3860px;
+    z-index: 1;
+}
+
+.content {
+   width: 100%;
+}
+
+.header,
+.prez_app,
+.plan_d ,
+.meal_time,
+.footer {
+	width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 25px 15px;
+    position: relative;
+    z-index: 999;
+}
+
+/*======= MEDIA =================================*/
+
+@media (max-width: 1080px) {
+    
+    .header .container {
+        padding: 25px 0 0 25px;
+    }
+
+    .header_nav {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 880px) { 
+
+    .nav_item {
+        margin-right: 30px;
+    }
+
+    .half1 {
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    .prez_app {
+        padding: 120px 0 0;
+    }
+
+    .prez_app .container {
+        flex-direction: column;
+    }
+
+    .meal_time {
+        padding: 0 0 110px;
+    }
+
+    .meal_time .container {
+        flex-direction: column;
+    }
+
+    .meal_h,
+    .meal_dscr {
+        text-align: center;
+    }
+}
+
+@media (max-width: 880px) {
+
+    .nav {
+        display: none;
+    }
+
+    /*.burger {
+        display: block;
+    }*/
+}
+
+@media screen and (max-width: 767px) {
+    head {
+        min-width: 320px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    head {
+        min-width: 768px; 
+    }
+}
+
+@media (max-width: 670px) {
+
+    .plan_d_h {
+        max-width: 430px;
+    }
+
+    .plan_d_bottom {
+        height: 340px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .header_main {
+        flex-direction: column;
+    }
+
+    .half2 {
+        width: 100%;
+        background-position: right;
+        background-size: contain;
+        height: 550px;
+    }
+
+    .prez_half1 {
+        margin: 40px auto 0;
+    }
+
+    .prez_circle {
+        margin-left: -100px;
+    }
+
+    .prez_half2 {
+        height: 460px;
+        margin-top: 60px;
+    }
+
+    .prez_h {
+        text-align: center;
+        max-width: 410px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .prez_descr {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .plan_d {
+        padding-top: 75px;
+    }
+
+    .meal_menu_block {
+        width: 380px;
+    }
+
+    .menu_main {
+        width: 440px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .prez_circle {
+        margin-left: -170px;
+    }
+
+    .plan_d {
+        max-height: 840px;
+    }
+
+    .plan_d .container {
+        padding-bottom: 0;
+    }
+
+    /*отмена hover рациона*/
+
+    .meal_menu_block:hover {
+        width: 420px;
+        height: 110px;
+        transition: all ease 0s;
+    }
+
+    .meal_menu_block:hover .meal_menu_img {
+        width: 110px;
+        transition: all ease 0s;
+    }
+
+    .meal_menu_block:hover .meal_menu_dscr {
+        width: 200px;
+        height: 60px;
+        transition: all ease 0s;
+    }
+
+    .meal_menu_block:hover .menu_item_h {
+        font-size: 16px;
+        transition: all ease 0s;
+    }
+
+    .meal_menu_block:hover .menu_item_span {
+        font-size: 12px;
+        transition: all ease 0s;
+    }
+
+    .meal_menu_block:hover .menu_item_gk {
+        font-size: 12px;
+        transition: all ease 0s;
+    }
+
+    .meal_menu_block:hover .time_st1 {
+        font-size: 24px; 
+        transition: all ease 0s;
+    }
+
+    .meal_menu_block:hover .time_st2 {
+        font-size: 16px; 
+        transition: all ease 0s;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .half2 {
+        margin-top: 30px;
+    }
+
+    .prez_circle {
+        margin-left: -220px;
+    }
+
+    .circ_obj2 ,
+    .circ_obj5 {
+        left: 310px;
+    }
+
+    .prez_mob {
+        left: -40px;
+    }
+
+    .meal_menu_block {
+        width: 340px;
+    }
+
+    .menu_main {
+        width: 390px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .plan_d_bottom {
+        height: 325px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .meal_menu_block {
+        width: 330px;
+    }
+
+    .meal_menu_block:hover {
+        width: 330px;
+    }
+
+    .app_down_block {
+        margin-right: 10px;
+    }
+
+    .menu_main {
+        width: 360px;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .getapp_btn {
+        width: 120px;
+    }
+
+    .header_logo {
+        width: 115px;
+        background-size: contain;
+    }
+
+    .app_down_block {
+        margin-right: 0px;
+    }
+
+    .half2 {
+        background-position: 30px 10px;
+    }
+
+    .prez_circle {
+        margin-left: -280px;
+    }
+
+    .prez_half2 {
+        height: 560px;
+    }
+
+    .prez_h {
+        margin-top: 60px;
+    }
+
+    .plan_d_bottom {
+        height: 265px;
+    }
+
+    .meal_menu_block {
+        width: 290px;
+    }
+
+    .meal_menu_block:hover {
+        width: 290px;
+    }
+
+    .menu_main {
+        width: 310px;
+    }
+}
