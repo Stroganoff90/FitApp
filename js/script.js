@@ -1,3 +1,4 @@
+// PARALLAX
 function parallax(event) {
   if (document.documentElement.clientWidth > 768) {
     this.querySelectorAll('.frjs').forEach(frjs => {
@@ -9,26 +10,15 @@ function parallax(event) {
 
 document.addEventListener('mousemove', parallax);
 
-
-
-
-
-
-
-
-
+// TABS
 
 const menuElements = document.querySelectorAll('[data-tab]');
 
-function Tabs() {
-  var bindAll = function() {    
-    for(let i = 0; i < menuElements.length ; i++) {
-      menuElements[i].addEventListener('click', change);
-    }
+(function() {    
+  for(let i = 0; i < menuElements.length ; i++) {
+    menuElements[i].addEventListener('click', []);
   }
-
-  bindAll();
-}
+}())
 
 function clickMe(e) {
   for(let i = 0; i < menuElements.length ; i++) {
