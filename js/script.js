@@ -12,18 +12,12 @@ document.addEventListener('mousemove', parallax);
 
 // TABS
 
-const menuElements = document.querySelectorAll('[data-tab]');
-
-(function() {    
-  for(let i = 0; i < menuElements.length ; i++) {
-    menuElements[i].addEventListener('click', []);
-  }
-}())
+const tabList = document.querySelectorAll('[data-tab]');
 
 function clickMe(e) {
-  for(let i = 0; i < menuElements.length ; i++) {
-    menuElements[i].classList.remove('tab_active');
-    var id = menuElements[i].getAttribute('data-tab');
+  for(let i = 0; i < tabList.length ; i++) {
+    tabList[i].classList.remove('tab_active');
+    var id = tabList[i].getAttribute('data-tab');
     document.getElementById(id).classList.remove('active-block');
   }
   
