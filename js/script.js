@@ -30,23 +30,14 @@ function Tabs() {
   bindAll();
 }
 
-var clear = function() {  
+function clickMe(e) {
   for(let i = 0; i < menuElements.length ; i++) {
     menuElements[i].classList.remove('tab_active');
     var id = menuElements[i].getAttribute('data-tab');
     document.getElementById(id).classList.remove('active-block');
   }
-}
-
-function clickMe(e) {
-  
-  for (let i = menuElements.length - 1; i >= 0; i--) {
-    menuElements[i].classList.remove("tab_active");
-  }
-
-  clear();
   
   e.classList.add('tab_active');
-  var id = e.getAttribute('data-tab');  
+  var id = e.getAttribute('data-tab');
   document.getElementById(id).classList.add('active-block');
 }
